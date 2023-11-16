@@ -20,7 +20,7 @@ const init = function () {
   scores = [0, 0];
   currentScore = 0;
   activePlayer = 0;
-  playing = false;
+  playing = true;
 
   score0El.textContent = 0;
   score1El.textContent = 0;
